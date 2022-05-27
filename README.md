@@ -1,9 +1,9 @@
 # ReadmeCreator-
 
-# Work Day Scheduler Starter Code
+# ReadmeCreator- Starter Code
 Live URL: https://dramm1.github.io/ReadmeCreator-/
 
-# Acceptacne Criteria
+# Acceptance Criteria
 - GIVEN a command-line application that accepts user input
 - WHEN I am prompted for information about my application repository
 - THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, - Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -26,7 +26,7 @@ Live URL: https://dramm1.github.io/ReadmeCreator-/
 
 # How To Use:
 -------------
-- In the text area input a city that you would like to find weather information for. Once you have typed in the desired location you will be able to search for the weather forecast for that city and make plans accordingly.
+- Clone the repository and run node index.js. Once you have run the command in your terminal it should prompt you for various questions that will then output your readme to the RM folder.
 ------------------
 
 # Screenshots and Images:
