@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "ansi-escapes": "^5.0.0",
+    "ansi-regex": "^6.0.1",
+    "ansi-styles": "^6.1.0",
+    "chalk": "^5.0.1",
+    "chardet": "^1.4.0",
+    "cli-cursor": "^4.0.0",
+    "cli-width": "^4.0.0",
+    "color-convert": "^2.0.1"
+  }
+}

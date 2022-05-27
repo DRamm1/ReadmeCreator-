@@ -2,7 +2,7 @@
 const fs = require("fs"); 
 const inquirer = require("inquirer"); 
 
-const generateMarkdown = require('./utils/generateMarkdown');
+const genData = require('./assets/util/genMarkdown');
 
 
 
@@ -49,10 +49,14 @@ const questions = (data) => {
             }
         },
         { 
-            
             type: "input",
             message: "Please provide a description.",
             name: "description",
+        },
+        { 
+            type: "input",
+            message: "Please provide any information regarding testing you have done.",
+            name: "tests"
         },
         { 
             type: "input",
@@ -79,10 +83,10 @@ const questions = (data) => {
 /* Writing the data to the README.md file. */
 questions()
         .then(data => { 
-        const readMe = generateMarkdown(data)
-        fs.writeFile("./dist/README.md", readMe, err => {
+        const readMe = genData(data)
+        fs.writeFile("./RM/README.md", readMe, err => {
             if (err)
                 throw new Error(err);
-            console.log("Successfully wrote to README.md")
+            console.log("Success: README.md created!")
         })
     });
