@@ -1,7 +1,7 @@
 # ReadmeCreator-
 
 # Work Day Scheduler Starter Code
-Live URL: https://dramm1.github.io/
+Live URL: https://dramm1.github.io/ReadmeCreator-/
 
 # Acceptacne Criteria
 - GIVEN a command-line application that accepts user input
