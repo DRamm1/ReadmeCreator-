@@ -30,8 +30,8 @@ Live URL: https://dramm1.github.io/ReadmeCreator-/
 ------------------
 
 # Screenshots and Images:
-- ![](https://github.com/DRamm1/ReadmeCreator-/blob/main/assets/images/nodereadme.png)
-- ![](https://github.com/DRamm1/ReadmeCreator-/blob/main/assets/images/nodereadmedone.png)
+- ![](https://github.com/DRamm1/ReadmeCreator-/tree/main/assets/images/nodereadme.png)
+- ![](https://github.com/DRamm1/ReadmeCreator-/tree/main/assets/images/nodereadmedone.png)
 ------------------
  Additional Images and Information:
 
